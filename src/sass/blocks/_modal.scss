@@ -1,0 +1,110 @@
+.modal {
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    z-index: 199;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: auto;
+    transition: 0.3s;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    backdrop-filter: blur(4px);
+    transition: 0.3s;
+    &--active {
+        opacity: 1;
+        visibility: visible;
+    }
+    &-main {
+        &__dialog {
+            width: 100%;
+            max-width: 664px;
+            background: #ECECEC;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+            padding: 105px 136px;
+            position: relative;
+            color: #3E3F46;
+        }
+        &__logo {
+            font-weight: bold;
+            text-align: center;
+            max-width: 270px;
+            margin: auto;
+            font-size: 24px;
+            margin-bottom: 84px;
+        }
+        &__title {
+            font-family: 'Inter', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 120%;
+            text-align: center;
+            margin-bottom: 34px;
+        }
+        &__input-group {
+            width: 100%;
+            margin-bottom: 20px;
+            &:first-child {
+                margin-bottom: 30px;
+            }
+        }
+        &__button {
+            color: #fff;
+            border-radius: 0;
+            width: 100%;
+            height: 60px;
+        }
+        &__input {
+            width: 100%;
+            
+            background: #FFFFFF;
+            border: none;
+            border: 1px solid #3E3F46;
+            padding: 20px;
+            font-size: 18px;
+            line-height: 22px;
+            &:focus {
+                outline: none;
+            }
+        }
+        &__close {
+            position: absolute;
+            top: 30px;
+            right: 30px;
+            cursor: pointer;
+        }
+    }
+    &-thanksQ {
+        &__dialog {
+            position: relative;
+            background: #ECECEC;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+            padding: 131px 138px;
+            color: #3E3F46;
+            text-align: center;
+        }
+        &__img {
+            margin-bottom: 35px;
+        }
+        &__title {
+            font-family: 'Inter', sans-serif;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 120%;
+            margin-bottom: 35px;
+        }
+        &__close {
+            position: absolute;
+            top: 30px;
+            right: 25px;
+        }
+    }
+}

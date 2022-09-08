@@ -1,0 +1,599 @@
+@media (max-width: 1700px) {
+    .quiz {
+        &__items {
+            max-width: 1180px;
+        }
+        &__item-descr {
+            margin-left: 20px;
+        }
+        &__image {
+            width: 580px;
+        }
+    }
+}
+@media (max-width: 1600px) {
+    .promo {
+        &__image {
+            left: 0;
+            width: 755px;
+        }
+    }
+    .last {
+        &__image {
+            width: 790px;
+            right: 50px;
+        }
+    }
+    .fives {
+        &__image {
+            width: 720px;
+        }
+    }
+    .thanks {
+        background-size: contain;
+    }
+}
+
+@media (max-width: 1500px) {
+    .promo {
+        &__image {
+            width: 735px;
+        }
+    }
+    .quiz {
+        &__image {
+            width: 560px;
+        }
+    }
+    .last {
+        &__image {
+            width: 770px;
+            right: 40px;
+        }
+    }
+    .fives {
+        &__image {
+            width: 685px;
+        }
+    }
+}
+
+@media (max-width: 1400px) {
+    .container {
+        max-width: 1200px;
+        width: 100%;
+    }
+    .title {
+        font-size: 44px;
+        line-height: 52px;
+    }
+    .promo {
+        &__content {
+            max-width: 560px;
+        }
+        &__image {
+            width: 715px;
+        }
+    }
+    .last {
+        &__image {
+            width: 715px;
+            right: 20px;
+        }
+    }
+    .fives {
+        &__image {
+            width: 550px;
+        }
+    }
+}
+
+@media (max-width: 1300px) {
+    .container {
+        max-width: 1140px;
+        width: 100%;
+    }
+    .promo {
+        &__image {
+            width: 685px;
+        }
+    }
+    .quiz {
+        &__image {
+            width: 550px;
+        }
+    }
+    .last {
+        &__image {
+            width: 650px;
+            right: 10px;
+        }
+    }
+}
+@media (max-width: 1199px) {
+    .container {
+        max-width: 960px;
+        width: 100%;
+    }
+    .title {
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .promo {
+        &__inner {
+            padding-top: 215px;
+        }
+        &__image {
+            width: 665px;
+        }
+        &__content {
+            max-width: 425px;
+        }
+    }
+    .header {
+        &__descr {
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+    .quiz {
+        &__items {
+            max-width: 960px;
+        }
+        &__item-descr {
+            margin-left: 12px;
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &__image {
+            width: 460px;
+        }
+    }
+    .last {
+        &__content {
+            padding-top: 120px;
+        }
+        &__image {
+            width: 600px;
+            right: 0;
+        }
+    }
+    .fives {
+        &__image {
+            width: 430px;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        max-width: 750px;
+        width: 100%;
+    }
+    .header {
+        padding-top: 20px;
+        &__logo {
+            font-size: 32px;
+            line-height: 38px;
+        }
+        &__descr {
+            display: none;
+        }
+    }
+    .promo {
+        background-size: contain;
+        background-position: center;
+        padding-bottom: 70px;
+        &__image {
+            display: none;
+        }
+        &__inner {
+            padding-top: 75px;
+            justify-content: center;
+        }
+        &__image-mobile {
+            display: block;
+            object-fit: cover;
+            // width: 425px;
+            // height: 505px;
+            margin-bottom: 10px;
+        }
+        &__content {
+            text-align: center;
+        }
+        &__content-title {
+            margin-bottom: 20px;
+        }
+        &__content-descr {
+            margin-bottom: 40px;
+        }
+        &__content-button {
+            margin: 0 auto;
+        }
+    }
+    .quiz {
+        min-height: calc(100vh - 80px);
+        &__items {
+            padding-top: 45px;
+            max-width: 750px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 35px;
+            gap: 15px;
+        }
+        &__item {
+            width: 49%;
+        }
+        &__image {
+            width: 365px;
+        }
+        &__box-inner {
+            width: 400px;
+        }
+    }
+    .last {
+        padding: 70px 0;
+        min-height: calc(100vh - 80px);
+        background-size: contain;
+        background-position: center;
+        &__content {
+            text-align: center;
+            padding-top: 0;
+        }
+        &__content-title {
+            width: 100%;
+            margin-bottom: 40px;
+        }
+        &__content-descr {
+            margin-bottom: 50px;
+            text-align: left;
+        }
+        &__image {
+            display: none;
+        }
+        &__image-mobile {
+            display: block;
+            width: 450px;
+            margin: auto;
+        }
+        &__content-form {
+            margin: 0 auto;
+        }
+    }
+    .fives {
+        &__image {
+            width: 320px;
+        }
+    }
+    .thanks {
+        min-height: calc(100vh - 80px);
+    }
+    .modal {
+        &-thanksQ {
+            &__close {
+                width: 24px;
+            }
+            &__dialog {
+                padding: 77px 20px;
+            }
+            &__img {
+                margin-bottom: 20px;
+                width: 70px;
+            }
+            &__title {
+                margin-bottom: 20px;
+                font-size: 23px;
+            }
+            &__text {
+                font-size: 16px;
+            }
+        }
+        &-main {
+            &__dialog {
+                max-width: 375px;
+                padding: 65px 10px 45px;
+            }
+            &__close {
+                width: 24px;
+                height: 24px;
+                top: 30px;
+                right: 25px;
+            }
+            &__logo {
+                display: none;
+            }
+            &__title {
+                margin: auto;
+                margin-bottom: 30px;
+                font-size: 28px;
+                line-height: 34px;
+            }
+            &__input-group {
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 540px;
+        width: 100%;
+    }
+    .header {
+        &__logo {
+            font-size: 28px;
+            line-height: 32px;
+        }
+        &__button {
+            display: none;
+        }
+        &__button-mobile {
+            display: block;
+            border: none;
+            outline: none;
+            background-color: transparent;
+        }
+    }
+    .title {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .promo {
+        background-position: top 45px center;
+        padding: 40px 0;
+        &__inner {
+            padding-top: 0;
+        }
+        &__image-mobile {
+            width: 380px;
+            margin: 0 auto;
+        }
+        &__content-descr {
+            font-size: 22px;
+            line-height: 26px;
+        }
+    }
+    .quiz {
+        padding-top: 35px;
+        padding-bottom: 70px;
+        background-position: center;
+        background-size: contain;
+        &__image {
+            display: none;
+        }
+        &__items {
+            display: none;
+        }
+        &__box-title {
+            width: 100%;
+        }
+        &__input {
+            margin-bottom: 55px;
+        }
+        &__items-mobile {
+            display: block;
+            margin-bottom: 55px;
+        }
+        &__box-title {
+            margin-bottom: 40px;
+        }
+        &__box-inner {
+            margin-bottom: 40px;
+        }
+        &__box-number {
+            font-size: 68px;
+            line-height: 78px;
+        }
+    }
+    .last {
+        background-position: top 45px center;
+        padding: 40px 0;
+        &__image-mobile {
+            width: 380px;
+            margin: 0 auto;
+        }
+        &__content-descr {
+            margin-bottom: 40px;
+        }
+    }
+    .fives {
+        &__image {
+            display: none;
+        }
+    }
+    .thanks {
+        background-position: top -145px center;
+        background-size: cover;
+        &__title {
+            margin-bottom: 20px;
+        }
+        &__descr {
+            font-size: 22px;
+            line-height: 26px;
+            font-weight: 400;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 100%;
+        width: 100%;
+        padding: 0 20px;
+    }
+    .header {
+        padding-top: 16px;
+        &__logo {
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &__logo-text {
+            font-size: 13px;
+            line-height: 15px;
+        }
+    }
+    .promo {
+        background-position: top 60px center;
+        padding: 17px 0 34px 0;
+        &__content-title {
+            margin-bottom: 23px;
+        }
+        &__image-mobile {
+            width: 246px;
+            margin-bottom: 24px;
+        }
+        &__content-descr {
+            font-size: 18px;
+            line-height: 22px;
+            margin-bottom: 25px;
+        }
+        &__content-button {
+            width: 280px;
+        }
+    }
+    .title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .quiz {
+        background-position: top 55px center;
+        
+        padding-top: 26px;
+        &__box-number {
+            font-size: 48px;
+            line-height: 56px;
+            margin-bottom: 4px;
+        }
+        &__box-title {
+            max-width: 420px;
+            margin-bottom: 30px;
+        }
+        &__input {
+            width: 280px;
+            height: 50px;
+            margin-bottom: 35px;
+        }
+        &__items {
+            margin-bottom: 40px;
+        }
+        &__item {
+            width: 100%;
+            margin-bottom: 10px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        &__item-descr {
+            font-size: 14px;
+            line-height: 17px;
+        }
+        &__item-image {
+            width: 41px;
+            height: 41px;
+            border-radius: 10px;
+            img {
+                width: 26px;
+                height: 26px;
+            }
+        }
+        &__group-buttons {
+            width: 280px;
+        }
+        &__group-button-prev,
+        &__group-button-next {
+            font-size: 18px;
+            line-height: 22px;
+            width: 135px;
+            height: 50px;
+        }
+        &__box-inner {
+            width: 280px;
+            flex-wrap: wrap;
+            flex-direction: column;
+            margin-bottom: 35px;
+        }
+        &__box-item {
+            margin-bottom: 40px;
+        }
+        &__list__text {
+            font-size: 14px;
+            line-height: 17px;
+        }
+    }
+    .last {
+        padding-top: 9px;
+        padding-bottom: 35px;
+        &__image-mobile {
+            width: 246px;
+        }
+        &__content-title {
+            margin-top: -20px;
+            margin-bottom: 25px;
+        }
+        &__content-form {
+            width: 280px;
+        }
+        &__input {
+            height: 50px;
+            font-size: 16px;
+            line-height: 19px;
+            margin-bottom: 0;
+        }
+        &__input-group {
+            margin-bottom: 10px;
+            &:nth-child(2) {
+                margin-bottom: 40px;
+            }
+        }
+        &__content-descr {
+            display: none;
+        }
+        &__group-button-prev,
+        &__group-button-next {
+            font-size: 18px;
+            line-height: 22px;
+            width: 135px;
+            height: 50px;
+        }
+    }
+    .thanks {
+        display: block;
+        padding-top: 116px;
+        background: none;
+        background: #ececec url('../img/thanks/thanks-bg-mobile.png') top right no-repeat;
+        &__descr {
+            width: 100%;
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &__title {
+            font-size: 22px;
+            line-height: 26px;
+        }
+    }
+    .modal {
+        &-main {
+            &__title {
+                font-size: 24px;
+                line-height: 28px;
+            }
+            &__close {
+                top: 20px;
+                right: 20px;
+            }
+        }
+        &-thanksQ {
+            &__img {
+                margin-bottom: 17px;
+            }
+            &__title {
+                margin-bottom: 12px;
+            }
+            &__close {
+                top: 20px;
+                right: 20px;
+            }
+        }
+    }
+}

@@ -1,0 +1,36 @@
+.header {
+    position: relative;
+    z-index: 10;
+    padding-top: 34px;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo {
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        color: #004E64;
+        font-size: 36px;
+        line-height: 43px;
+    }
+    &__logo-text {
+        font-size: 18px;
+        line-height: 22px;
+        display: block;
+        text-align: right;
+        color: #06B103;
+    }
+    &__descr {
+        font-size: 24px;
+        line-height: 28px;
+        color: #3E3F46;
+    }
+    &__button {
+        width: 240px;
+        height: 60px;
+    }
+    &__button-mobile {
+        display: none;
+    }
+}

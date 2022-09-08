@@ -1,0 +1,115 @@
+.quiz {
+    background: #ececec url('../img/promo/promo-bg.png') right bottom no-repeat;
+    min-height: calc(100vh - 99px);
+    position: relative;
+    &__image {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        object-fit: contain;
+    }
+    &__items {
+        padding-top: 53px;
+        max-width: 1260px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 56px;
+    }
+    &__items-mobile {
+        display: none;
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    &__item-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 82px;
+        height: 82px;
+        background: #FAFAFA;
+        border-radius: 18px;
+    }
+    &__item-descr {
+        margin-left: 40px;
+        font-size: 24px;
+        line-height: 28px;
+        color: #3E3F46;
+    }
+    &__box-number {
+        font-family: 'Inter', sans-serif;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 83px;
+        color: #06B103;
+    }
+    &__box-title {
+        width: 700px;
+        margin-bottom: 50px;
+    }
+    &__input {
+        width: 420px;
+        height: 60px;
+        margin-bottom: 150px;
+    }
+    &__group-buttons {
+        width: 340px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__group-button-prev {
+        width: 160px;
+        height: 60px;
+    }
+    &__group-button-next {
+        width: 160px;
+        height: 60px;
+    }
+    &__box-inner {
+        width: 480px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 60px;
+    }
+    &__box-list {
+        display: flex;
+        flex-direction: column;
+    }
+    &__list__label {
+        margin-bottom: 21px;
+        cursor: pointer;
+    }
+    &__list__text {
+        position: relative;
+        padding-left: 40px;
+        z-index: 10;
+        &::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 32px;
+            height: 32px;
+            border-radius: 6px;
+            background-color: #fff;
+            z-index: 5;
+        }
+    }
+    &__list__radio {
+        display: none;
+        &:checked + .quiz__list__text::before {
+            border: 10px solid #fff;
+            border-radius: 8px;
+            background-color: #004E64;;
+            width: 32px;
+            height: 32px;
+        }
+    }
+}

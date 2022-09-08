@@ -1,0 +1,23 @@
+.thanks {
+    background: #ececec url('../img/thanks/thanks-bg.png') right bottom no-repeat;
+    min-height: calc(100vh - 99px);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__inner {
+        text-align: center;
+    }
+    &__title {
+        margin-bottom: 45px;
+    }
+    &__descr {
+        font-family: 'Inter', sans-serif;
+        font-size: 28px;
+        line-height: 34px;
+        font-weight: 900;
+        width: 388px;
+        margin: 0 auto;
+        color: #3E3F46;
+    }
+}
