@@ -2,11 +2,14 @@
     background: #ececec url('../img/promo/promo-bg.png') right bottom no-repeat;
     min-height: calc(100vh - 99px);
     position: relative;
+    padding-bottom: 30px;
     &__image {
         position: absolute;
         bottom: 0;
         right: 0;
-        object-fit: contain;
+        width: 37%;
+        height: 95%;
+        object-fit: inherit;
     }
     &__items {
         padding-top: 53px;
@@ -97,7 +100,7 @@
             transform: translateY(-50%);
             width: 32px;
             height: 32px;
-            border-radius: 6px;
+            border-radius: 100%;
             background-color: #fff;
             z-index: 5;
         }
@@ -106,7 +109,6 @@
         display: none;
         &:checked + .quiz__list__text::before {
             border: 10px solid #fff;
-            border-radius: 8px;
             background-color: #004E64;;
             width: 32px;
             height: 32px;

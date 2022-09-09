@@ -2,9 +2,12 @@
     background: #ececec url('../img/promo/promo-bg.png') right bottom no-repeat;
     min-height: calc(100vh - 99px);
     position: relative;
+    padding-bottom: 30px;
     &__image {
         position: absolute;
         bottom: 0;
+        width: 48%;
+        height: 95%;
         right: 115px;
     }
     &__image-mobile {
